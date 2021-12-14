@@ -1,0 +1,70 @@
+/* Importing webfonts */
+
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+@import url(https://fonts.googleapis.com/css?family=Spartan);
+
+
+/* CSS rules */
+
+/* index.html */
+
+
+/* ARTICLE */
+p {
+	margin: 0;
+	padding: 1em;
+	border: 0;
+	font-size: 20px;
+	font-family: Poppins;
+	vertical-align: baseline;
+	-webkit-font-smoothing: antialiased;
+}
+
+.contenedor_imagen_proyecto {
+	padding-top: 3em;
+	position: relative;
+	width: 70%;
+	margin: auto;
+}
+
+.imagen_proyecto {
+	display: block;
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+}
+
+.overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: white;
+	overflow: hidden;
+	width: 0;
+	height: 100%;
+	transition: .5s ease;
+}
+
+.contenedor_imagen_proyecto:hover .overlay {
+  	width: 100%;
+}
+
+.texto_overlay {
+	font-family: Spartan;
+	white-space: nowrap;
+	color: #e31c3d;
+	font-size: 70px;
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+.descripcion_proyecto {
+	text-align: center;
+	padding-left: 4em;
+	padding-right: 4em;
+}

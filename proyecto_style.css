@@ -1,0 +1,205 @@
+/* Importing webfonts */
+
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+@import url(https://fonts.googleapis.com/css?family=Spartan);
+
+
+/* CSS rules */
+
+/* proyecto.html */
+
+/* ARTICLE */
+body {
+	display: flex; /* portion body and main */
+	flex-direction: column; /* portion as is shown in holberton example */
+	height: 100%;
+	min-height: 100%;
+}
+
+main {
+	display: flex; /* portion body and main */
+	flex-direction: row; /* portion as is shown in holberton example */
+}
+
+article {
+	padding-left: 1em;
+	flex: 2; /* article takes 2/3 of the width of the page */
+	overflow-y: auto; /* scroll down/up */
+	overflow-x: auto; /* scroll down/up */
+}
+
+h1, h2 {
+	margin: 0;
+	padding: 1em;
+	border: 0;
+	font-size: 30px;
+	font-family: Spartan;
+	font-weight: bolder;
+	vertical-align: baseline;
+}
+
+h3 {
+	margin: 0;
+	padding: 1em;
+	border: 0;
+	font-size: 22px;
+	font-family: Poppins;
+	vertical-align: baseline;
+}
+
+article li {
+	list-style-type: none;
+	padding-left: 2em;
+}
+
+p {
+	margin: 0;
+	padding: 1em;
+	border: 0;
+	font-size: 20px;
+	font-family: Poppins;
+	vertical-align: baseline;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* IMAGES */
+/* image 1 */
+#input_img {
+    width: 320px;
+    height: auto;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* image 2 */
+#output_img {
+    width: 320px;
+    height: auto;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* image 3 */
+#explanation_img {
+    width: 700px;
+    height: auto;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+article img:hover {
+	opacity: 0.7;
+}
+
+figcaption {
+	font-family: Poppins;
+	-webkit-font-smoothing: antialiased;
+	font-size: 20px;
+}
+
+
+/* ASIDE */
+aside {
+	flex: 1; /*  aside takes 1/3 */
+}
+
+#disqus_thread {
+    padding-left: 5em;
+    margin-top: 4em;
+    width: 300px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+}
+
+
+/* Modal */
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal_content_vertical {
+    margin: auto;
+    display: block;
+    width: 50%;
+    max-width: 700px;
+}
+
+.modal_content_horizontal {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Caption of Modal Image */
+.caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+    font-family: Poppins;
+    font-style: italic;
+}
+
+
+/* Add Animation */
+.modal_content_vertical, .modal_content_horizontal, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}

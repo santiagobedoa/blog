@@ -1,0 +1,90 @@
+/* Importing webfonts */
+
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+@import url(https://fonts.googleapis.com/css?family=Spartan);
+@import url(https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata);
+
+
+/* CSS rules */
+
+/* HEADER */
+header {
+	background-color: #e31c3d;
+	border-radius: 8px;
+	padding: 20px 0;
+	height: 60px;
+	font-size: 20px;
+}
+
+header ul {
+	list-style: none;
+	text-align: right; /* el texto del nav comenzara a la derecha */
+	padding-right: 40px;
+}
+
+header li {
+	display: inline;
+	vertical-align:middle;
+}
+
+header li a {
+	color: #f4f2f3;
+	margin: 0 10px; /* espacio entre cada opción */
+	font-family: Spartan;
+}
+
+.logo {
+	font-family: Crimson;
+	font-weight: bold;
+	position: absolute;
+	text-align: left;
+	padding-left: 0.5em;
+	top: -1px;
+	padding-top: 15px;
+	font-size: 70px;
+}
+
+.logo a {
+	color: #f4f2f3;
+}
+
+header a {
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* FOOTER */
+footer {
+	height: 80px;
+	text-align: center;
+	border-top: 1px solid rgb(221,221,221);
+	transition: border-bottom-color 1s ease;
+	margin-top: 4em;
+}
+
+#footer_text {
+	font-family: Spartan;
+	text-align: left;
+	margin-top: 1em;
+	font-size: 15px;
+}
+
+footer img {
+	width: 200px;
+	position: absolute;
+	left: 35px;
+}
+
+footer ul {
+	list-style: none;
+	padding-right: 40px;
+	position: absolute;
+	right: 35px;
+}
+
+#share_text {
+	font-family: Spartan;
+	text-align: right;
+	font-size: 15px;
+}
