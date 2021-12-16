@@ -133,8 +133,8 @@ aside {
 .modal_content_vertical {
     margin: auto;
     display: block;
-    width: 50%;
-    max-width: 700px;
+    width: 100%;
+    max-width: 720px;
 }
 
 .modal_content_horizontal {
@@ -202,4 +202,36 @@ aside {
   .modal-content {
     width: 100%;
   }
+}
+
+
+/* button */
+.button_container {
+    padding-bottom: 2em;
+    padding-top: 5em;
+    text-align: center;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: #e31c3d;
+    border: 2px solid #e31c3d;
+    border-radius: 8px;
+    font-family: Spartan;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #e31c3d;
+    color: white;
 }
