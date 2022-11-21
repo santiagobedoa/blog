@@ -24,6 +24,9 @@ Here is a demo of what the blog interface looks like:
 	<source src='./images/video.mp4' type='video/mp4'>
 </video>
 <p>
+IF YOU CAN'T SEE THE VIDEO! Please go to images folder, there you will find video.mp4 and downloaded it or clon this repo and run it on your local host.
+</p>
+<p>
 This interface is fully functional. As you can see in the video, I incorporated Disqus so that people can comment, give likes, and thus add more interactivity to the blog. Also, use the facebook and twitter APIs so that people can share the post.
 </p>
 <p>
