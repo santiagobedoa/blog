@@ -1,3 +1,38 @@
+# Blog post: "Gota en un oceano..." 📝
+
+<p>
+This project intends to show how programming is a powerful tool to tell great stories, I have always thought that programming is the means but not the end. What I mean by this is that programming is the vehicle to achieve great things. In this case, I use my knowledge in programming to make my story have more impact and achieve a greater reach.
+</p>
+<p>
+If you came here it could be for two reasons. The first is that you want to read only my essay, so I invite you to jump to the 
+<a href=#blog_post>Blog Post</a>. The other possibility is that you had come to know my technical skills (possibly you came because of my portfolio), if so, I also invite you to read the 
+<a href=#blog_post>Blog Post</a>, because it will make more sense why I developed the code, besides you will be able to know different uses of the programming to which we are familiarized, which in this case is to tell a story and make a great reflection. If you don't have time, jump to
+<a href=#blog_demo>Blog demo</a> and 
+<a href=#explaining_the_code>how the code works</a>. It does not go through much detail in the technical aspects since it is not the main objective of this project.
+</p>
+<h1 id='blog_demo'>
+Blog demo 🎥
+</h1>
+<p>
+To be straightforward, the code of this project is divided into two:
+The one found in this repository simulates the UI of a blog on the internet and the one found in this
+<a href="https://github.com/santiagobedoa/photomosaic_generator" target="_blank">repository</a>
+creates the photomosaic.
+Here is a demo of what the blog interface looks like:
+</p>
+<video width="320" height="240" controls>
+	<source src='./images/video.mp4' type='video/mp4'>
+</video>
+<p>
+This interface is fully functional. As you can see in the video, I incorporated Disqus so that people can comment, give likes, and thus add more interactivity to the blog. Also, use the facebook and twitter APIs so that people can share the post.
+</p>
+<p>
+From now on I will switch to Spanish since the audience for this post is mainly Spanish-speaking. If you are a reader who only speaks English, I invite you to activate the translation of your browser.
+</p>
+
+<h1 id='blog_post'>
+Blog Post... 🖋️
+</h1>
 <article>
 	<div style="float:left; margin: 1em">
 		<figure>
@@ -113,7 +148,7 @@
 		<p>
 			Tuve que desarrollar un algoritmo utilizando el lenguaje de programación Python para poder crear el fotomosaico. El script se ocupa de extraer fotos de internet en los temas especificados por el usuario y de recrear la fotografía que se le pase como input, que en este caso es la de Manuel. El output sera la imagen en estilo de fotomosaico.
 		</p>
-	<h2>¿Cómo funciona el código?</h2>
+	<h2 id='explaining_the_code'>¿Cómo funciona el código?</h2>
 		<p>
 			El programa se divide en tres:
 		</p>
