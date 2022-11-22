@@ -20,7 +20,7 @@ creates the photomosaic.
 Here is a demo of what the blog interface looks like:
 </p>
 
-[![Watch the video](./images/explicacion_fotomosaico.jpg)](https://youtu.be/VrsCjhg6qDA)
+[![Watch the video](./images/thumbnail.png)](https://youtu.be/VrsCjhg6qDA)
 
 <p>
 Clik on the image to go to the video. IF YOU CAN'T SEE THE VIDEO! Please go to images folder, there you will find video.mp4 and downloaded it or clon this repo and run it on your local host.
