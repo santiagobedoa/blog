@@ -1,5 +1,4 @@
 # Blog post: "Gota en un oceano..." 📝
-
 <p>
 This project intends to show how programming is a powerful tool to tell great stories, I have always thought that programming is the means but not the end. What I mean by this is that programming is the vehicle to achieve great things. In this case, I use my knowledge in programming to make my story have more impact and achieve a greater reach.
 </p>
@@ -20,9 +19,9 @@ The one found in this repository simulates the UI of a blog on the internet and 
 creates the photomosaic.
 Here is a demo of what the blog interface looks like:
 </p>
-<video width="320" height="240" controls>
-	<source src='./images/video.mp4' type='video/mp4'>
-</video>
+
+[![Watch the video](./images/explicacion_fotomosaico.jpg)](https://youtu.be/VrsCjhg6qDA)
+
 <p>
 IF YOU CAN'T SEE THE VIDEO! Please go to images folder, there you will find video.mp4 and downloaded it or clon this repo and run it on your local host.
 </p>
